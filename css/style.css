@@ -1,0 +1,329 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&family=Roboto:wght@400;700;900&display=swap');
+
+body{
+    font-family: "Lato", "Roboto", serif;
+    
+}
+
+.container{
+    max-width: 1230px;
+    margin: 0px auto;
+    /* border: 1px solid black; */
+}
+/* =========================== коробочки ======================================= */
+.box1{
+    max-width: 810px;
+    margin-bottom: 40px;
+    border-bottom: 5px solid rgb(60, 221, 20);
+}
+.box2{
+    max-width: 1225px;
+    border-bottom: 2px solid rgb(52, 11, 231);
+    margin-bottom: 40px;
+}
+.box3{
+    max-width: 1225px;
+    border-bottom: 5px solid rgb(60, 221, 20);
+    margin-bottom: 40px;
+}
+/* ==================================================================== */
+.title h1{
+    font-weight: 900;
+    font-family: Lato;
+    font-size: 46px;
+    line-height: 1.3;
+    color: #1E212C;
+    margin-bottom: 15px;
+}
+.title__img{
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 30px;
+}
+.title__text p{
+    font-family: "Lato";
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 1.5;
+}
+.title__text p:not(:last-child){
+    margin-bottom: 10px;
+}
+.title__text p:last-child{
+    margin-bottom: 20px;
+}
+
+.block__text p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 30px;
+}
+.block__text2 p{
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 1.5;
+    padding-left: 38px;
+    /* background: url("../img/icon/icon2.svg") 0 0 no-repeat; */
+}
+
+.items li{
+    background: url("../img/icon/icon1.svg") 0 0 no-repeat;
+    padding-left: 25px;
+    margin-bottom: 5px;
+}
+.block__list ul{
+    margin-bottom: 25px;
+}
+
+/* ===================================================================== */
+
+.section1__img{
+    max-width: 706px;
+    vertical-align: top;
+    margin-right: 135px;
+    display: inline-block; 
+}
+.section1__desc {
+    margin-bottom: 15px;
+}
+.desc h6{
+    text-transform: uppercase;
+    font-family: "Lato";
+    font-weight: 700;
+    line-height: 1.5;
+    margin-bottom: 5px;
+}
+.desc h1{
+    font-family: "Lato";
+    font-weight: 900;
+    font-size: 46px;
+    line-height: 1.3;
+}
+.section1__button{
+    color: white;
+    width: 161px;
+    height: 44px;
+    line-height: 3.15;
+    padding: 0px 32px;
+    background: linear-gradient(55.95deg, #FF3F3A 0%, #F75E05 100%);
+    text-align: center;
+    border-radius: 4px;
+    font-size: 14px;
+}
+.section1__items{
+    margin-bottom: 20px;
+
+}
+.section1__conteiner{
+    max-width: 380px;
+    display: inline-block;
+    
+}
+.section1{
+    margin-bottom: 40px;
+}
+.section2{
+    margin-bottom: 20px;
+}
+.section2__colom {
+    border: 2px solid gray;
+    box-shadow: 2px 2px 2px rgb(96, 97, 94);
+    width: 600px;
+    display: inline-block;
+    margin: 5px 5px;
+    
+}
+.section2__colom:hover{
+    box-shadow: 4px 5px 6px rgb(224, 74, 5);
+}
+
+.section2__desc{
+    display: inline-block;
+    margin-right: 600px;
+}
+
+/* ================ кнопка секції 2================== */
+.button{
+    color: #FF3F3A;
+    width: 202px;
+    height: 52px;
+    line-height: 1.5;
+    padding: 12px 40px;
+    border: 2px solid  #FF3F3A;
+    text-align: center;
+    border-radius: 4px;
+    font-size: 14px;
+    font-weight: 700;
+    display: inline-block;
+    margin-bottom: 60px;
+}
+/* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+
+/* ==================== загальна коробка  із посадою ========================*/
+.section2__pictures {
+    max-width: 214px;
+    max-height: 214px;
+    display: inline-block;
+    vertical-align: top;
+}
+.section2__hold{
+    display: inline-block;
+    padding: 32px;
+}
+.section2__card{
+    color: white;
+    width: 85px;
+    height: 23px;
+    padding: 1px 6px 1px 6px;
+    background-color: #03CEA4;
+    border-radius: 4px;
+    line-height: 1.25;
+    margin-bottom: 21px;
+    
+}
+.section2__text {
+    max-width: 322px;
+    font-weight: 700;
+    line-height: 1.5;
+    text-transform: capitalize;
+    color: #1E212C;
+    margin-bottom: 20px;
+}
+
+.section2__info span{
+    
+    font-size: 18px;
+    line-height: 1.5;
+    font-weight: 700;
+    color: #FF4242;
+    margin-right: 3px;
+}
+.info__section2 span::after{
+    content: "";
+    border-left: 2px solid grey;
+    height: 14px;
+}
+.info__section2{
+    font-size: 18px;
+    list-style: 1.5;
+    color: #787A80;
+    
+}
+/* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+
+/* =============== секція 2 - блоки модифікатори */
+
+.card__section2--color-blue {
+    color: white;
+    width: 107px;
+    height: 23px;
+    padding: 1px 8px;
+    background-color: #5A87FC;
+    border-radius: 4px;
+    line-height: 1.25;
+    margin-bottom: 21px;
+    text-align: center;
+}
+.card__section2--color-orange {
+    color: white;
+    width: 132px;
+    height: 23px;
+    padding: 1px 8px;
+    background-color: #F89828;
+    border-radius: 4px;
+    line-height: 1.25;
+    margin-bottom: 21px;
+    text-align: center;
+}
+.card__section2--color-pink{
+    color: white;
+    width: 65px;
+    height: 23px;
+    padding: 1px 8px;
+    background-color: #F52F6E;
+    border-radius: 4px;
+    line-height: 1.25;
+    margin-bottom: 21px;
+    text-align: center;
+}
+/* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+
+/* ===================== секція 3 ======================================= */
+.section3__desc h6{
+    text-transform: uppercase;
+}
+.section3__desc{
+    text-align: center;
+    margin-bottom: 60px;
+}
+/* ========== кнопка секції 3 */
+.button--star{
+    color: #FF3F3A;
+    width: 307px;
+    height: 46px;
+    line-height: 1.6;
+    padding: 10px 10px;
+    border: 2px solid  #FF3F3A;
+    text-align: center;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: 700;
+    display: inline-block;
+    margin-right: 25px; 
+}
+.star{
+    margin-top: 5px;
+}
+/* +++++++++++++++++++++++++++++++++++++++++++++ */
+
+/* ================ секція 3 посилання */
+.section3__block1 {
+    margin: 0 5px 57px 5px;
+
+}
+.section3__link {
+    color: #9A9CA5;
+    width: 290px;
+    height: 46px;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 1.6;
+    display: inline-block;
+    padding: 10px 5px;
+    text-align: center;
+    /* border: 1px solid black; */
+    vertical-align: top;
+
+}
+.img {
+    color: #9A9CA5;
+    margin-top: 4px;
+}
+/* ++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+
+/* ================== секція 3 текстовий блок */
+.section3__text {
+    max-width: 495px;
+    margin-right: 135px;
+    margin-top: 100px;
+    display: inline-block;
+}
+.section3__text h2{
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 1.3;
+    color: #1E212C;
+    margin-bottom: 24px;
+}
+.section3__text p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.6;
+    color: #424551;
+}
+.section3__illustration{
+    max-width: 400px;
+    vertical-align: top;
+    display: inline-block;
+}
