@@ -206,7 +206,7 @@ body{
 }
 .info__section2{
     font-size: 18px;
-    list-style: 1.5;
+    line-height: 1.5;
     color: #787A80;
     
 }
